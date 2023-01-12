@@ -8,8 +8,17 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var onButtonTap: UIButton!
+    
+    @IBOutlet weak var placeholer: UITextField!
 
-    override func viewDidLoad() {
+    @IBOutlet weak var favoriteBand: UILabel!
+    
+    @IBOutlet weak var placeholder2: UITextField!
+    override func viewDidLoad()
+    
+    {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
